@@ -1,3 +1,15 @@
+a:link {
+	color: #7e7e7e;
+	font-size: 16px;
+	font-family: 'Droid Serif', serif;
+	list-style: none;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+}
+
 .banner {
 	background-color: #C4634F;
 	margin-top: -10px;
@@ -10,7 +22,7 @@ body {
 
 .container {
 	background-color: #F6EEE4;
-	height: 1000px;
+	height: 660px;
 }
 
 .footer {
@@ -23,6 +35,9 @@ body {
 h1 {
 	color: #8C201F;
 	font-family: 'Cinzel Decorative', cursive;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
 }
 
 /* Secondary Header */
@@ -33,80 +48,33 @@ h2 {
 
 }
 
+h3 {
+	color: #767676;
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	font-weight: 300px;
+	margin-left: 80px;
+}
+
 /* Paragraph */
 
 p {
-	color: #767676;
+	color: #000;
 	font-family: 'Calibri', serif;
 }
 
 /* Logo */
 
-img {
+.picture {
 	margin: 10px;
+	border-radius: 150px;
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
 }
 
-/* Body Text */
-
-
-section p {
-	background: url("../img/upfeathers.png");
-	color: #000;
-	font-family: 'Calibri';
-	line-height: 25px;
-}
-
-/* Baseline Links */
-
-p a:active {
-	color: #000;
-	text-decoration: none;
+h1, h2, p {
+	margin-left: 10px;
 }
 
 
-/* Set Your Own Margin & Padding */
-h1, h2, h3, p, em {
-	margin: 10px;
-}
-
-/* Layout for Style Tile*/
-section {
-	margin: 20px 0;
-}
-
-.color-1,
-.color-2,
-.color-3,
-.pattern-1,
-.pattern-2,
-.pattern-3 {
-	border: 1px solid #000;
-	float: left;
-	margin: 0 10px;
-	height: 50px;
-	width: 50px;
-}
-
-.color-1 {
-	background: #8C201F;
-}
-
-.color-2 {
-	background: #C4634F; 
-}
-
-.color-3 {
-	background: #767676;
-}
-
-.pattern-1 {
-	background: url("../img/light_grey.png");
-}
-
-.pattern-2 {
-	background: url("../img/wild_flowers.png");
-}
-
-.pattern-3 {
-	background: url("../img/grey_wash_wall.png");
-}
