@@ -22,11 +22,11 @@ body {
 
 .container {
 	background-color: #F6EEE4;
-	height: 660px;
+	height: 620px;
 }
 
 .footer {
-	margin-top: 100px;
+	margin-top: 220px;
 	margin-bottom: -100px;
 	text-align: center;
 }
@@ -35,7 +35,7 @@ body {
 h1 {
 	color: #8C201F;
 	font-family: 'Cinzel Decorative', cursive;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 	margin-top: 50px;
 }
@@ -53,17 +53,17 @@ h3 {
 	font-family: 'Droid Serif', serif;
 	font-size: 16px;
 	font-weight: 300px;
-	margin-left: 80px;
 }
 
 /* Paragraph */
 
 p {
 	color: #000;
+	font-size: 18px;
 	font-family: 'Calibri', serif;
 }
 
-/* Logo */
+/* Picture */
 
 .picture {
 	margin: 10px;
